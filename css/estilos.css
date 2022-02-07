@@ -59,13 +59,19 @@ ul{
     text-align: center;
     background-color: rgb(209, 209, 209);
 }
-
+nav li:hover{
+    transform: scale(1.2);
+    background-color: rgb(32, 31, 31);
+    font-weight: bold;
+}
 
 li > ul > menu{
     display: flex;
     justify-content: center;
     padding: 15px 20px;
 }
+
+
 
 h3{
     background-color: rgb(0, 0, 0);
